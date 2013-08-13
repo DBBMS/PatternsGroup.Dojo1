@@ -10,7 +10,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzzStudent();
 
             for (var i = 0; i < 100; i++)
             {

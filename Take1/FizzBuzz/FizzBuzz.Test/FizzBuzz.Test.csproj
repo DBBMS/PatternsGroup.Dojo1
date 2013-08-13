@@ -42,12 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FizzBuzz.cs" />
     <Compile Include="FizzBuzzTest.cs" />
+    <Compile Include="inheritTests\SomeBaseTest.cs" />
+    <Compile Include="inheritTests\SomeRealTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj">
+      <Project>{727227e4-3695-460c-938b-127f2862cbdc}</Project>
+      <Name>FizzBuzz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

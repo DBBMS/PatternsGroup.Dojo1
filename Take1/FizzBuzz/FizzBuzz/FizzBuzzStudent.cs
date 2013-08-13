@@ -1,6 +1,6 @@
 ﻿namespace FizzBuzz
 {
-    public class FizzBuzz
+    public class FizzBuzzStudent
     {
         public string Speak(int i)
         {
